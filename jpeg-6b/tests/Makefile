@@ -1,7 +1,7 @@
 OUTFILE = testout
 
 
-all: check
+all:check
 
 img:
 	../src/djpeg -dct int -ppm -outfile $(OUTFILE).ppm testorig.jpg	
