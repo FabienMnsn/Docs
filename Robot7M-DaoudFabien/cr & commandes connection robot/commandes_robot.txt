@@ -1,0 +1,12 @@
+sudo /opt/2I013/wlan-connect.sh 2I013robot-X 2I013robot
+pswd_perso
+ssh pi@ 10.0.X.1
+robots1234
+scp /users/Etu0/3670590/Documents/2i013/Robot7M/daoudfabien/* pi@10.0.2.1:~/daoudfabien/
+robots1234
+scp pi@10.0.2.1:~/daoudfabien/2018* /users/Etu0/3670590/Documents/2i013/Robot7M/daoudfabien/Image/
+
+
+
+install PIL
+pip install Pillow --user
